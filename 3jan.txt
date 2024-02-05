@@ -1,0 +1,468 @@
+1)
+when a user input a value and check the value is greater than 50 or not :
+
+
+#include<stdio.h>
+ int main()
+ {
+      int a;
+      printf("enter the value of a ");
+      scanf("%d",&a);
+      if(a>50)
+      { 
+          printf("a is greater ");
+      }
+     return 0;
+     
+ }
+
+2)
+when a user input a value and check the value is greater than 342 or not :
+
+
+#include<stdio.h>
+int
+main ()
+{
+  int a;
+  printf ("enter the value of a \n");
+  scanf ("%d", &a);
+  if (a > 342)
+	{
+	  printf ("a is greater than");
+
+	}
+  else
+	{
+	  printf ("a is not greater than 342");
+
+	}
+  return 0;
+
+3)
+when a user input a value and check the value is less than 50 or not :
+
+
+#include<stdio.h>
+ int main()
+ {
+     int a;
+     printf("enter the value of a \n");
+     scanf("%d", &a);
+     if(a<10)
+     {
+         printf("a is less than 10");
+         
+     }
+     else
+     {
+         printf("a is not less than of 10");
+         
+     }
+     return 0;
+ }
+}
+
+5)when a user input a value and check a number is divisible by 5 or not 
+
+#include<stdio.h>
+ int main()
+ {
+     int a;
+     printf("enter the value of a \n");
+     scanf("%d",&a);
+     if(a%5==0)
+     {
+         printf("the numer is divisibal 5");
+         
+     }
+     else
+     {
+         printf("the number is ont divisibal 5");
+     }
+     
+     return 0;
+     
+ }
+
+6)when a user input a value and check a number is divisible by 88 or not 
+
+
+#include<stdio.h>
+ int main()
+ {
+     int a;
+     printf("enter the value of a \n");
+     scanf("%d",&a);
+     if(a%88==0)
+     {
+         printf("the number is divide 88");
+         
+     }
+     else
+ {
+     printf("the number is not divisibal");
+     
+ }
+    return 0;
+    
+ }
+
+7)when a user input a value and check a number is equal 88 or invalid
+
+#include<stdio.h>
+ int main()
+ {
+     int a;
+     printf("enter the value of a");
+     scanf("%d",&a);
+     if(a==88)
+     {
+         printf("equal");
+         
+     }
+     else
+     {
+         printf("not equal");
+     }
+      return 0;
+ }
+
+8)when a user input a character and compare b :ball otherwise not valid 
+
+#include<stdio.h>
+ int main()
+ {
+     char kumar;
+     printf("enter the aney character \n");
+     scanf("%c",&kumar);
+     if(kumar=='b')
+     {
+         printf("ball");
+     }
+     else
+     {
+         printf("not valid");
+     }
+     return 0;
+     
+ }
+
+
+9)when a user input a character and compare k :kite otherwise not valid 
+
+#include<stdio.h>
+ int main()
+ {
+     char hi;
+     printf("enter the aney character \n");
+     scanf("%c",&hi);
+     if(hi=='k')
+     {
+         printf("kite");
+     }
+     else
+     {
+         printf("not valid");
+     }
+     return 0;
+ }
+
+
+
+10)when a character input : 
+a :
+a+b 
+sorry this character is not match
+
+
+    #include<stdio.h>
+     int main()
+     {
+         char a;
+         printf("enter the aney character \n");
+         scanf("%c", &a);
+         if(a=='a')
+         {
+             int a ;
+             printf("enter the value of a =");
+             scanf("%d",&a);
+             int b;
+             printf("enter the value of b = ");
+             scanf("%d ", &b);
+             int c=a+b;
+             printf("%d",c);
+             
+         }
+         else
+         {
+             printf("sorry this character is not valid");
+             
+         }
+         return 0;
+     }
+
+
+11)
+when a character input : 
+s :
+a-b 
+
+sorry this character is not match
+
+#include<stdio.h>
+ int main()
+ {
+     char s;
+     printf("enter the aney character");
+     scanf("%c",&s);
+     if(s=='s')
+     {
+         int a;
+         printf("enter the value of a =");
+         scanf("%d",&a);
+         int b;
+         printf("enter the value of b =");
+         scanf("%d",&b);
+         int c=a-b;
+         printf("a-b = %d", c);
+         
+     }
+     else
+     {
+         printf("sorry this character is not match");
+         
+     }
+     return 0;
+     
+ }
+
+
+
+12)
+when a character input : 
+m :
+a*b *c
+
+sorry this character is not match
+
+
+
+#include<stdio.h>
+ int main()
+ {
+     char mul;
+     printf("enter aney chracter");
+     scanf("%c" ,&mul);
+     if(mul=='m')
+     {
+         int a ;
+         printf("enter the one number");
+         scanf("%d",&a);
+         int b;
+         printf("enter the one number");
+         scanf("%d",&b);
+         int c;
+         printf("enter the one number");
+         scanf("%d",&c);
+         int d;
+         d=a*b*c;
+         printf(" a*b*c= %d",d);
+         
+     }
+     else
+     {
+         printf("sorry this character is not valid");
+     }
+     return 0;
+     
+ }
+
+
+
+13)
+when a character input : 
+d:
+a/b 
+
+sorry this character is not match
+
+
+#include<stdio.h>
+ int main()
+ {
+     char ji;
+     printf("enter aney character \n");
+     scanf("%c",&ji);
+     if(ji=='d')
+     {
+         float a;
+         printf("enter the one number "); 
+         scanf("%f",&a);
+
+         int b;
+         printf("\nenter the one numser ");
+         scanf("%d",&b);
+         float c;
+         c=a/b;
+         printf("a/b = %f",c);
+         
+         
+     }
+     else
+     {
+         printf("sorry this character is not valid");
+     }
+     return 0;
+     
+ }
+
+
+
+14)
+
+when a character input : 
+o :
+a%b 
+
+sorry this character is not match
+
+#include<stdio.h>
+ int main()
+ {
+     char g;
+     printf("enter the aney character ");
+     scanf("%c",&g);
+    if(g=='o')
+     {
+         int a;
+         printf("enter the one numer ");
+         scanf("%d",&a);
+         int b;
+         printf("enter the ine numder ");
+         scanf("%d",&b);
+         float c=a%b;
+         printf(" %f",c);
+     }
+     else
+     {
+         printf("sorry this character is not valid");
+         
+     }
+     return 0;
+     
+ }
+
+
+15)
+t :
+area of triangle 
+
+sorry this character is not match
+
+#include<stdio.h>
+ int main()
+ {
+     char area;
+     printf("enter the aney character");
+     scanf("%c",&area);
+     if(area=='t')
+     {
+         int side;
+         printf("enter the side");
+         scanf("%d",&side);
+         int area;
+         area=side*side;
+         printf("the area of tringle : %d",area);
+     }
+     else
+     {
+         printf("sorry thir character is not match");
+     }
+     return 0;
+ }
+
+16)
+c :
+area of circle 
+
+sorry this character is not match
+
+#include<stdio.h>
+ int main()
+ {
+     char hi;
+     printf("enter the aney character ");
+     scanf("%c",&hi);
+     if(hi=='c')
+     {
+         float r;
+         printf("enter the r");
+         scanf("%f",&r);
+         float pi;
+         pi=3.14159;
+        // printf("%f",pi);
+         float area;
+         area=pi*r*r;
+         printf("the area oe circle : %d",area);
+         
+     }
+     else 
+     {
+         printf("sorry this character no match");
+     }
+     return 0;
+ }
+
+
+17)
+r :
+area of rectangle 
+
+sorry this character is not match
+
+#include<stdio.h>
+ int main()
+ {
+     char fi;
+     printf("enter the anay character ");
+     scanf("%c",&fi);
+     if(fi=='r')
+     {
+         int w;
+         printf("enter the width :");
+         scanf("%d",&w);
+         int l;
+         printf("enter the length :");
+         scanf("%d",&l);
+         int area;
+         area=w*l;
+         printf("%d",area);
+         
+     }
+     else 
+     {
+         printf("sorry this character is not match");
+     }
+     return 0;
+ }
+
+
+18)
+h :
+volume of hemisphere 
+
+sorry this character is no
+
+
+#include<stdio.h>
+ int main()
+{
+char hi;
+hi='h';
+printf("enter the aney charcet");
+return 0;
+if()
+   {
+      int 
+}

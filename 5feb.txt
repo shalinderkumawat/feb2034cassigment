@@ -1,0 +1,698 @@
+two number maximum 
+(if else)
+
+
+#include<stdio.h>
+ int main()
+ {
+     int a,b;
+     printf("enter the number of maix \n");
+     scanf("%d %d",&a,&b);
+     if(a>b)
+     {
+     printf("a is maix");
+     }
+     else{
+         printf("b is amix");
+         
+     }
+     return 0;
+     
+     
+ }
+
+
+ three number maximum
+
+
+ #include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("enter the vailu of a and b and c \n");
+    scanf("%d %d %d",&a,&b,&c);
+    if(a>b&&a>c)
+    {
+        printf("a is maix");
+
+
+    }
+    else if (b>a&&b>c)
+    {
+        printf("b is maix");
+
+    }
+    else{
+        printf("c is maix");
+    }
+}
+
+five number maximum
+
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c,d,e;
+    printf("enter the valiu of a,b,c,d,e\n ");
+    scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+    if(a>b&&a>c&&a>d&&a>e)
+    {
+        printf("a is maix");
+    }
+    else if(b>a&&b>c&&b>d&&b>e)
+    {
+        printf("b is maix");
+    }
+    else if (c>a&&c>b&&c>d&&c>e)
+    {
+        printf("c is maix");
+    }
+    else if(d>a&&d>b&&d>c&&d>e)
+    {
+        printf("d is maix");
+    }
+    else
+    {
+        printf("e is mainx");
+    }
+    return 0;
+
+}
+
+
+
+
+10 number maximum
+
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c,d,e,f,g,h,i,j;
+    printf("enter the vailu of a,b,c,d,e,f,i,j \n");
+    scanf("%d%d%d%d%d%d%d%d%d%d",&a,&b,&c,&d,&e,&f,&g,&h,&i,&j);
+    if (a>b&&a>c&&a>d&&a>e&&a>f&&a>g&&a>h&&a>i&&a>j)
+    {
+        printf("a is maix");
+    }
+    else if (b>a&& b>c&& b>d&& b>e&& b>f&& b>g&& b>h&& b>i&& b>j)
+    {
+        printf("b is maix");
+    }
+    else if(c>a&&c>b&&c>d&&c>e&&c>f&&c>g&&c>h&&c>i&&c>j)
+    {
+        printf("c is maix");
+    }
+    else if(d>a&&d>b&&d>c&&d>e&&d>f&&d>g&&d>h&&d>i&&d>j)
+    {
+        printf("d is maix");
+    }
+    else if(e>a&&e>b&&e>c&&e>d&&e>f&&e>i&&e>g&&e>h&&e>j)
+    {
+        printf("e is maix");
+    }
+    else if (f>a&&f>b&&f>c&&f>d&&f>e&&f>g&&f>h&&f>i&&f>j)
+    {
+        printf("f is maix");
+    }
+    else if (g>a&&g>b&&g>c&&g>d&&g>e&&g>f&&g>h&&g>i&&g>j)
+    {
+        printf("g is maix");
+    }
+    else if(h>a&&h>b&&h>c&&h>d&&h>e&&h>f&&h>g&&h>i&&h>j)
+    {
+        printf("h is maix");
+    }
+    
+    else if(i>a&&i>b&&i>c&&i>d&&i>e&&i>f&&i>g&&i>h&&i>j)
+    {
+        printf("i is maix");
+    }
+    else {
+        printf("j is maix");
+    }
+    return 0;
+}
+
+
+
+
+
+1 :one
+2 :two
+3 :three
+4 :four
+5 :five
+
+not match
+
+
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the vailu of a \n");
+    scanf("%d",&a);
+    if(a==1)
+    {
+        printf(" 1:one");
+    }
+    else if (a==2)
+    {
+        printf("2:two");
+    }
+    else if(a==3)
+    {
+        printf("3:three");
+
+    }
+    else if (a==4)
+    {
+        printf("4:four");
+    }
+    else if (a==5)
+    {
+        printf("5:five");
+    }
+    else
+    {
+        printf("not valid");
+    }
+    return 0;
+}
+
+
+1---->7
+1:sun
+2:mon
+3:tue
+4:wed
+5:th
+6:fri
+7:sat
+
+not match
+
+
+#include<stdio.h>
+int main()
+{
+    int a ;
+    printf("enter the day num");
+    scanf("%d",&a);
+    if(a==1)
+    {
+        printf("sunday");
+    }
+    else if (a==2)
+    {
+        printf("monday");
+    }
+    else if (a==3)
+    {
+        printf("tuesday");
+    }
+    else if (a==4)
+    {
+        printf("wednesday");
+    }
+    else if(a==5)
+    {
+        printf("thrusday");
+    }
+    else if(a==6)
+    {
+        printf("friday");
+    }
+    else if (a==7)
+    {
+        printf("saturday");
+    }
+    else {
+    printf("not match");
+    }
+    return 0;
+}
+
+
+month 
+1:jan
+2:feb
+3:march
+total 12
+
+13 :not match 
+
+
+
+#include<stdio.h>
+int main()
+{
+    int a ;
+    printf("enter the month number \n");
+    scanf("%d",&a);
+    if(a==1)
+    {
+        printf("january");
+    }
+    else if (a==2)
+    {
+        printf("february");
+    }
+    else if (a==3)
+    {
+        printf("march");
+    }
+    else if (a==4)
+    {
+        printf("april");
+    }
+    else if (a==5)
+    {
+        printf("may");
+    }
+    else if (a==6)
+    {
+        printf("jun");
+    }
+    else if (a==7)
+    {
+        printf("july");
+    }
+    else if (a==8)
+    {
+        printf("august");
+    }
+    else if (a==9)
+    {
+        printf("september");
+    }
+    else if (a==10)
+    {
+        printf("october");
+    }
+    else if (a==11)
+    {
+        printf("november");
+    }
+    else if (a==12)
+     {
+         printf("december");
+     }
+     else 
+     {
+      printf("not match");
+      }
+     return 0;
+}
+
+
+
+
+a:apple
+b:ball
+c :cat
+d:dog
+
+
+#include<stdio.h>
+int main()
+{
+    char a;
+    printf("enter the character \n");
+    scanf("%c",&a);
+    if(a=='a')
+    {
+        printf("apple");
+    }
+    else if(a=='b')
+    {
+        printf("boy");
+
+    }
+    else if (a=='c')
+    {
+        printf("cat");
+
+    }
+    else if (a=='d')
+    {
+        printf("dog");
+    }
+
+    else
+    {
+        printf(" not match");
+    }
+
+}
+
+
+user input
+
+a :addition
+s :substraction
+m :multiply
+d :divide
+o :modular
+
+
+#include<stdio.h>
+int main()
+{
+    char a;
+    printf("enter the character \n a \t s \t m \t o \t d");
+    scanf("%c",&a);
+    if (a=='a')
+    {
+        int a,b;
+        printf("enter the add vailu a and b :");
+        scanf("%d%d",&a,&b);
+        int c=a+b;
+        printf("the sum of a and b =%d",c);
+    }
+    else if (a=='d')
+    {
+        int a,b;
+        printf("enter the vailu of divison \n");
+        scanf("%d%d",&a,&b);
+        int c=a/b;
+        printf("the divison of a and b= %d",c);
+        }
+    else if (a=='s')
+    {
+        int a,b;
+        printf("enter the vailu of substraction \n");
+        scanf("%d%d",&a,&b);
+        int c=a-b;
+        printf("the substraction of a and b :%d",c);
+    }
+    else if (a=='m')
+    {
+        int a,b;
+        printf("enter the vailu of multiply \n");
+        scanf("%d%d",&a,&b);
+        int c=a*b;
+        printf("the multiply a and b :%d",c);
+
+    }
+    else if (a=='o')
+    {
+        int a,b;
+        printf("enter the vailu of modular \n");
+        scanf("%d%d",&a,&b);
+        int c=a%b;
+        printf("the modular a and b :%d",c);
+    }
+    else {
+        printf("not match");
+    }
+}
+
+
+
+
+voter id :
+user input age :check age 18 se jyada hey
+age>18
+
+
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("your age \n");
+    scanf("%d",&a);
+    if(a>=18){
+    printf("you are 18+");
+    }
+    else
+    {
+        printf("you are not 18+");
+
+    }
+}
+
+
+
+	
+
+code :
+user input character :
+m :
+	inside :check a number month 
+
+w :
+	inside :check a number week
+
+e :
+	inside :check a number is even 
+		4 :even number 
+		3 :this number is not even 
+o :
+	inside :check a number odd 
+
+c :
+	inside :check a number is calculator
+	a :addition
+	s :sub
+	m :mult
+	d :div
+	o :modular 
+
+a :
+	age :voeter id valid or not 
+
+v :
+	vowel and consoant 
+
+t :
+	three number maximum check
+
+
+	#include<stdio.h>
+int main()
+{
+    char all;
+    printf("enter the character \n m \t w \t e \t o \t c \t a \t v \t t \n"
+    );
+    scanf("%c",&all);
+    if(all=='m')
+    {
+        int a;
+        printf("ente the month number \n 1..12 \n \t");
+        scanf("%d",&a);
+        if(a==1)
+        {
+            printf("january");
+        }
+        else if (a==2)
+        {
+            printf("february");
+        }
+        else if(a==3)
+        {
+            printf("march");
+        }
+        else if (a==4)
+        {
+            printf("april");
+        }
+        else if (a==5)
+        {
+            printf("may");
+        }
+        else if (a==6)
+        {
+            printf("jun");
+        }
+        else if (a==7)
+        {
+            printf("july");
+        }
+        else  if (a==8)
+        {
+             printf("august");
+        }
+        else if (a==9)
+        {
+            printf ("september");
+        }
+        else if (a==10)
+        {
+            printf("october");
+        }
+        else if(a==11)
+        {
+            printf("november");
+        }
+        else if (a==12)
+        {
+            printf("december");
+        }
+
+
+    }
+    if (all=='w')
+    {
+        int a;
+        printf("enter the week number \n");
+        scanf("%d",&a);
+        if(a==1)
+        {
+            printf("sunday");
+        }
+        else if (a==2)
+        {
+            printf("monday");
+        }
+        else if (a==3)
+        {
+            printf("tuesday");
+        }
+        else if (a==4)
+        {
+            printf("wednesda");
+        }
+        else if (a==5)
+        {
+            printf("thursday");
+        }
+        else if(a==6)
+        {
+            printf("firday");
+        }
+        else if (a==7)
+        {
+            printf("saturday");
+        }
+        else
+        {
+            printf("not match");
+        }
+    }
+    if(all=='e')
+    {
+        int a;
+        printf("enter the number \n ");
+        scanf(" %d",&a);
+        if(a%2==0)
+        {
+            printf("the number is even");
+        }
+        else
+        {
+            printf("this number is not even");
+        }
+    }
+    if(all=='o')
+    {
+        int a;
+        printf("enter the number \n");
+        scanf("%d",&a);
+        if(a%2!=0)
+        {
+            printf("this number is odd");
+        }
+    }
+    if(all=='c')
+    {
+        char c;
+        printf("enter the one character a,s,m,d,o \n");
+        scanf(" %c",&c);
+        if(c=='a')
+        {
+            int a,b;
+            printf("enter the add number a and b \n");
+            scanf("%d %d",&a,&b);
+            int c=a+b;
+            printf("the sum of a and b = %d",c);
+        }
+        else if (c=='s')
+        {
+            int a,b;
+            printf("enter the vailu of substractio \n");
+            scanf("%d%d",&a,&b);
+            int c=a-b;
+            printf("the substraction a abd b =%d",c);
+        }
+        else if (c=='o')
+        {
+            int a,b;
+            printf("enter the modlur number \n");
+            scanf("%d %d",&a,&b);
+            int c=a%b;
+            printf("the modlur vailu a and b=%d",c);
+        }
+        else if (c=='d')
+        {
+            int a,b;
+            printf("enter the vailu of divison \n");
+            scanf("%d%d",&a,&b);
+            int c=a/b;
+            printf("the divison of a and b=%d",c);
+        }
+        else if(c=='m')
+        {
+            int a,b;
+            printf("enter the multiply number \n");
+            scanf("%d%d",&a,&b);
+            int c=a*b;
+            printf("the multiply a and b=%d",c);
+
+        }
+    }
+    if(all=='a')
+    {
+        int a;
+        printf("enter your age \n");
+        scanf("%d",&a);
+        if(a>=18)
+        {
+            printf("your age 18 and your are eiligabel for voting \n");
+
+        }
+        else {
+            printf("not valid for voting ");
+        }
+    }
+    if(all=='v')
+    {
+        char v;
+        printf("enter the aney character \n");
+        scanf(" %c",&v);
+        if(v=='a'||v=='i'||v=='e'||v=='o'||v=='u')
+        {
+            printf("this charecter is vowel");
+        }
+        else {
+            printf("this charecter is consoant");
+        }
+
+    }
+    if(all=='t')
+    {
+        int a,b,c;
+        printf("enter the compair number");
+        scanf("%d%d%d",&a,&b,&c);
+        if (a>b&&a>c)
+        {
+        printf("a is maix number");
+        }
+        else if (b>a&&b>c)
+        {
+            printf("b is maix number");
+        }
+        else
+        {
+            printf("c is maix number");
+        }
+    }
+}
+
+
+
+
