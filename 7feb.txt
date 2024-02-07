@@ -1,0 +1,336 @@
+reverse number :
+input :64784 
+output :48746
+
+----------------------------------------------------
+
+#include<stdio.h>
+ int main()
+ {
+     int num=64784;
+     int rem,sum;
+     int temp=num;
+     while(num>0)
+     {
+         rem=num%10;
+         sum=sum*10+rem;
+         num=num/10;
+        
+     }
+     printf("%d",sum);
+ }
+
+----------------------------------------------------
+ pallindrome :
+
+156787651 pallindrome :yes |no
+dry run
+
+
+----------------------------------------------------
+15789651 pallindrome :yes |no
+dry run
+
+----------------------------------------------------
+
+#include<stdio.h>
+int main()
+{
+    int num=156787651;
+    int rem,sum;
+    int temp=num;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+
+    }
+    if(sum==temp)
+{
+    printf(" %d this number is pallindrome number",sum);
+}
+
+else
+{
+printf("this number is not pallindrome")
+}
+}
+
+
+
+----------------------------------------------------
+15789651 pallindrome :yes |no 
+dry run
+
+----------------------------------------------------
+#include<stdio.h>
+int main()
+{
+    int num=15789651;
+    int rem,sum;
+    int temp=num;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+    }
+    if(sum==temp)
+    {
+        printf("this number is pallindrome %d",sum);
+    }
+    else
+    {
+        printf("this number is not pallindrome %d",temp);
+    }
+}
+
+----------------------------------------------------
+armstrong number :
+153
+
+----------------------------------------------------
+#include<stdio.h>
+int main()
+{
+    int num=153;
+    int rem,sum=0;
+    int temp=num;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum+rem*rem*rem;
+        num=num/10;
+    }
+    if(temp=sum)
+    {
+        printf("this number is armstrong");
+
+    }
+    else
+    {
+        printf("this number is not armstrog");
+    }
+}
+
+----------------------------------------------------
+152
+
+dry run
+
+----------------------------------------------------
+#include<stdio.h>
+int main()
+{
+    int num=152;
+    int rem,sum;
+    int temp=num;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum+rem*rem*rem;
+        num=num/10;
+    }
+    if(sum==temp)
+    {
+        printf("this number is armstrong");
+
+    }
+    else
+    {
+        printf("this number  is not armstrong");
+    }
+}
+
+
+------------------------------------------------
+user input :
+a :armstrong number user input 
+
+p :pallindrome number 
+
+s :swap with third vairable 
+
+w :swap without third variable 
+
+m :month 
+
+q :week 
+
+----------------------------------------------------
+
+
+#include<stdio.h>
+int main()
+{
+    char all;
+    printf("enter the character a\t p\t s\to\tm \tv");
+    scanf(" %c",&all);
+    if(all=='a')
+    {
+        int num;
+        printf("enter the value of armstrong :");
+        scanf("%d",&num);
+        int rem,sum=0;
+        int temp=num;
+        while(num>0)
+        {
+            rem=num%10;
+            sum=sum+rem*rem*rem;
+            num=num/10;
+
+        }
+        if(sum==temp)
+        {
+            printf("this number is armstrong");
+
+        }
+        else{
+            printf("this number is not armstrong");
+        }
+    }
+    if(all=='p')
+    {
+        int num;
+        printf("enter the value of pallindrom");
+        scanf("%d",&num);
+        int rem,sum;
+        int temp=num;
+        while(num>0)
+        {
+            rem=num%10;
+            sum=sum*10+rem;
+            num=num/10;
+        }
+        if(sum==temp){
+        printf("this number is pallindrom : %d",sum);
+        }
+        else{
+            printf("this number is not pallindrom");
+        }
+    }
+    if(all=='w')
+    {
+        int a,b;
+
+        printf("enter the swap value of a and b :\n ");
+        scanf("%d%d",&a,&b);
+        printf("real value of a %d \n",a);
+        printf("real valu of b %d \n",b);
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        printf("swap value of a :%d \n", a);
+        printf("swap value of b :%d ",b);
+    }
+    if(all=='s')
+    {
+        int a;
+        printf("enter value of a");
+        scanf("%d",&a);
+        int b;
+        printf("enter the value of b");
+        scanf("%d",&b);
+        int c=0;
+        printf("real value of a %d \n",a);
+        printf("real value of b %d \n",b);
+        c=a;
+        a=b;
+        c=b;
+        printf("swap value of a %d \n",a);
+        printf("swap value of b %d \n",b);
+    }
+    if(all=='m')
+{
+    int a;
+     printf(" enter the month number");
+     scanf("%d",&a);
+     if(a==1)
+     {
+         printf("january");
+     }
+     else if(a==2)
+     {
+         printf("febuary");
+     }
+     else if(a==3)
+     {
+         printf("march");
+     }
+     else if(a==4)
+     {
+         printf("april");
+     }
+     else if(a==5)
+     {
+         printf("may");
+     }
+     else if(a==6)
+     {
+         printf("jun");
+     }
+     else if(a==7)
+     {
+         printf("july");
+     }
+     else if(a==8)
+     {
+         printf("august");
+     }
+     else if(a==9)
+     {
+         printf("september");
+     }
+     else if(a==10)
+     {
+         printf("october");
+     }
+     else if(a==11)
+     {
+         printf("november");
+     }
+     else if(a==12)
+     {
+         printf("december");
+     }
+     else
+     {
+         printf("not match");
+     }
+}
+if(all=='v')
+{
+    int a;
+    printf("enter the week number");
+    scanf("%d",&a);
+    if(a==1)
+    {
+        printf("sunday");
+    }
+    else if (a==2)
+    {
+        printf("monday");
+    }
+    else if (a==3)
+    {
+        printf("tuesday");
+    }
+    else if(a==4)
+    {
+        printf("wednesday");
+    }
+    else if(a==5)
+    {
+        printf("thursday");
+    }
+    else if(a==6)
+    {
+        printf("friday");
+    }
+    else if(a==7)
+    {
+        printf("saturday");
+    }
+}
+}
