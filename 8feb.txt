@@ -506,59 +506,87 @@ y :calculator :
 	m :mul
 	d :divide
 
-------------------------------------------------------
+-----------------------------------------------------
 
-#include<stdio.h>
+
+  #include<stdio.h>
 int main()
 {
     char all;
-    printf("enter the character a\tp :");
-    scanf("%c",&all);
-    if(all=='a')
+    printf("enter the character of like\n a\t\tp\tc :");
+    scanf(" %c",&all);
+    while(all=='a')
     {
-       
+    int num;
+    printf("enter the armstrong number:");
+    scanf("%d",&num);
+    int rem,sum;
+    int temp=num;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum+rem*rem*rem;
+        num=num/10;
+        
+    }
+    if(sum=temp)
+    {
+        printf("this numbe is armstrong");
+    }
+    else
+    {
+        ("this number is not armstrong");
+        
+    }
+}
+    while(all=='p')
+    {
         int num;
-        printf("enter the value of armstrong :");
+        printf("enter the numbe of armstrong :\n");
         scanf("%d",&num);
         int rem,sum=0;
         int temp=num;
         while(num>0)
         {
             rem=num%10;
-            sum=sum+rem*rem*rem;
+            sum=sum*10+rem;
             num=num/10;
-
         }
-        if(sum==temp)
+        if(sum==temp){
+        printf("this numbe is armstrong");
+        }
+        else
         {
-            printf("this number is armstrong");
-
-        }
-        else{
-            printf("this number is not armstrong");
+            printf("this numbe is not armstrong");
         }
     }
-    if(all=='p')
-     {
-         int num;
-         printf("enter the value of pallindrom number :");
-         scanf("%d",&num);
-         int rem,sum;
-         int temp=num;
-         while(num>0)
-         {
-             rem=num%10;
-             sum=sum*10+rem;
-             num=num/10;
-         }
-         if(sum==temp)
-         {
-             printf("this is number is pallidron number :%d",sum);
-         }
-         else
-         {
-             printf("this number is not pallindrom number");
-         }
-         
-     }
+     if(all=='c')
+    {
+        int a=23334;
+        int count;
+        while(a>0)
+        {
+            count++;
+            a=a/10;
+        }
+        printf("%d",count);
+    }
+    if(all=='s')
+    {
+        int num;
+        printf("enter the sum of number :");
+        scanf("%d",&num);
+        int rem,sum=0;
+        
+        while(num>0)
+        {
+            rem=num%10;
+            sum=num+sum;
+ 
+           
+        }
+        printf("the sum of: %d",sum);
+    }
+    
+    
 }
