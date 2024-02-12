@@ -1,0 +1,344 @@
+1)
+add() :23+89
+sub() :a-b
+div() :a/b
+multi() :a*b
+
+user input 
+--------------
+
+#include<stdio.h>
+void add();
+void sub();
+void mul();
+void divi();
+void mod();
+
+int main()
+{
+    add();
+    sub();
+    mul();
+    divi();
+    mod();
+}
+void add()
+{
+    int a,b;
+    printf("enter the value of a and  b :");
+    scanf("%d%d",&a,&b);
+    int c=a+b;
+    printf("%d \n",c);
+}
+void sub()
+{
+    int a,b;
+    printf("enter the valu of sub a and b");
+    scanf("%d%d",&a,&b);
+    int c=a-b;
+    printf("%d \n",c);
+}
+void mul()
+{
+    int a,b;
+    printf("enter the value of multiplay");
+    scanf("%d%d",&a,&b);
+    int c=a*b;
+    printf("%d \n",c);
+}
+void divi()
+{
+    int a,b;
+    printf("enter the valu of divison a and b\n");
+    scanf("%d%d",&a,&b);
+    int c=a/b;
+    printf("%d",c);
+}
+void mod()
+{
+    int a,b;
+    printf("\nenter the value of a and b");
+    scanf("%d%d",&a,&b);
+    int c=a%b;
+    printf("%d",c);
+}
+
+--------------
+
+
+2)
+swap() :number swap
+voter():age check
+vowel() :
+gender()
+three() :three number maximum
+factorial() :
+pallindrome():
+armstrong():
+reverse():
+sum():
+count():
+even(): 1--->100 even number
+fibonacci():
+table():
+
+user input
+
+#include<stdio.h>
+
+
+void swap();
+void voter();
+void vowel();
+void age();
+void gender();
+void three();
+//void factorial();
+void pallindrom();
+void armstrong();
+void reverse();
+void count();
+void sum();
+void even();
+void fibonacci();
+
+int main()
+{
+
+    swap();
+    vowel();
+    age();
+    gender();
+    three();
+    //factorial();
+     pallindrom();
+     armstrong();
+     reverse();
+     count();
+     sum();
+     even();
+    fibonacci();
+}
+void swap()
+{
+    char all;
+    printf("enter the character of a and b: ");
+    scanf("%c",&all);
+    if(all=='a'){
+    int c,b;
+    printf("enter the swap number");
+    scanf("%d%d",&c,&b);
+    printf("real value of a :%d \n",c);
+    printf("real value of b :%d \n",b);
+    int a=c;
+        a=b;
+        b=c;
+        printf(" swap vlue of a: %d\n",a);
+        printf("swap value of b :%d",b);
+    }
+    else if(all=='b')
+    {
+        int a,b;
+        printf("enter the number of a and b :\n");
+        scanf("%d%d",&a,&b);
+        printf("the real value of a :%d\n",a);
+        printf("the real value of b :%d\n",b);
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        printf("the swap value of a is: %d\n",a);
+        printf("the swap value of b is :%d\n",b);
+    }
+}
+void vowel()
+{
+    char a;
+    printf(" \nenter the character of vowel :\n");
+    scanf(" %c",&a);
+    if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u')
+    {
+        printf("this character is vowel\n");
+    }
+    else
+    {
+        printf("this character is consoant \n");
+    }
+}
+void age()
+{
+    int a;
+    printf(" \nenter your age :\n");
+    scanf("%d",&a);
+    if(a>=18)
+    {
+        printf("you are valid\n");
+    }
+    else
+    {
+        printf("sorry: you are not valid\n");
+    }
+}
+void gender()
+{
+    char a;
+    printf(" \nenter your gender frist latter :\n");
+    scanf(" %c",&a);
+    if(a=='m')
+    {
+        printf("you are male\n");
+    }
+    else if(a=='f')
+    {
+        printf("you are female\n");
+    }
+    else
+    {
+        printf("\nsorry : this character is ont match\n");
+    }
+
+}
+void three()
+{
+    int a,b,c;
+    printf("\nenter the value of maix\n");
+    scanf("%d%d%d",&a,&b,&c);
+    while(a>b&&a>c)
+    {
+        printf("a id maix:%d \n",a);
+
+    }
+    while(b>a&&b>c)
+    {
+        printf("b is maix :%d\n",b);
+
+    }
+    while(c<a&&c<b)
+    {
+        printf("c is maix\n");
+    }
+}
+//void factorial()
+//{
+
+//}
+void pallindrom()
+{
+
+    int num;
+    printf("enter the pallindrom number\n");
+    scanf("%d",&num);
+    int rem,sum;
+    int b=num;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+    }
+    if(sum==b)
+    {
+    printf("this number pallinfrom %d \n",sum);
+    }
+    else
+    {
+        printf("this number is not pallindrom number\n");
+    }
+}
+ void armstrong()
+ {
+    int num;
+    printf("\nenter the armstrong number\n");
+    scanf(" %d",&num);
+    int rem,sum;
+    int temp=num;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum+rem*rem*rem;
+        num=num/10;
+    }
+    printf("%d\n",sum);
+
+ }
+
+ void reverse()
+ {
+     int num;
+     printf("\nenter the reverse number:\n");
+     scanf("%d",&num);
+     int rem,sum;
+     while(num>0)
+     {
+         rem=num%10;
+         sum=sum*10+rem;
+         num=num/10;
+
+     }
+     printf("%d \n",sum);
+ }
+ void count()
+ {
+
+    int num;
+    printf("\nenter the number of count :\n");
+    scanf("%d",&num);
+    int count=0;
+    while(num>0)
+    {
+        count++;
+        num=num/10;
+        printf(" %d \n",count);
+    }
+
+
+ }
+
+ void sum()
+ {
+     int num;
+     printf("\nenter the number of sum :\n");
+     scanf("%d",&num);
+     int rem,sum=0;
+     while(num>0)
+     {
+         rem=num%10;
+         sum=sum+rem;
+         num=num/10;
+
+     }
+     printf("%d\n",sum);
+ }
+ void even()
+ {
+     for(int a=1;a<=100;a++)
+     if(a%2==0)
+     {
+         printf(" %d",a);
+     }
+
+ }
+
+
+void fibonacci
+{
+    int num;
+    scanf("%d",&num);
+    for(int i=1;i<=num;i++)
+{
+    if(i==1)
+    {
+        printf("0");
+    }
+    else if(i==2)
+    {
+        printf("1");
+    }
+    else
+    {
+        i=i+num;
+        num=i-num;
+        printf("%d",i);
+        
+    }
+}
+}
