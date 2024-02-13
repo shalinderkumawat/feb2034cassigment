@@ -1,0 +1,620 @@
+Q1. swap value whith varibal
+
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("enter the value of a and b :");
+    scanf("%d%d",&a,&b);
+    printf("real value of a:%d\n",a);
+    printf("real vavlue of b :%d\n",b);
+    int c=a;
+    a=b;
+    b=c;
+    printf("swap value of a: %d\n",a);
+    printf("swap value of b:%d\n",b);
+    return 0;
+}
+
+
+Q1 swap value without threed vavribal
+
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("enter the value of a and b :");
+    scanf("%d%d",&a,&b);
+    printf("real value of a:%d\n",a);
+    printf("real vavlue of b :%d\n",b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("swap value of a:%d\n",a);
+    printf("swap value of b:%d\n",b);
+    return 0;
+}
+
+
+2)
+number maximum :
+	two number
+	three number
+	10 number maximum
+
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the your choice like 2,3,10:");
+    scanf("%d",&a);
+    if(a==2)
+    {
+    int a,b;
+    printf("enter the value of maix");
+    scanf("%d%d",&a,&b);
+    if(a>b)
+     {
+        printf("a is maix");
+     }
+    else
+     {
+        printf("b sis maix");
+     }
+    }
+    else if(a==3)
+    {
+    int a,b,c;
+    printf("enter the value of maix");
+    scanf("%d%d%d",&a,&b,&c);
+    if(a>b||a>c)
+     {
+        printf("a is maix");
+     }
+     else if(b>a||b>c)
+     {
+         printf("b is maix");
+     }
+    else
+     {
+        printf("c sis maix");
+     }
+    }
+    while(a==10)
+    {
+        int a,b,c,d,e,f,g,h,i,j;
+        printf("enter the 10 number of maix");
+        scanf("%d%d%d%d%d%d%d%d%d%d",&a,&b,&c,&d,&e,&f,&g,&h,&i,&j);
+        if (a>b&&a>c&&a>d&&a>e&&a>f&&a>g&&a>h&&a>i&&a>j)
+    {
+        printf("a is maix");
+    }
+    else if (b>a&& b>c&& b>d&& b>e&& b>f&& b>g&& b>h&& b>i&& b>j)
+    {
+        printf("b is maix");
+    }
+    else if(c>a&&c>b&&c>d&&c>e&&c>f&&c>g&&c>h&&c>i&&c>j)
+    {
+        printf("c is maix");
+    }
+    else if(d>a&&d>b&&d>c&&d>e&&d>f&&d>g&&d>h&&d>i&&d>j)
+    {
+        printf("d is maix");
+    }
+    else if(e>a&&e>b&&e>c&&e>d&&e>f&&e>i&&e>g&&e>h&&e>j)
+    {
+        printf("e is maix");
+    }
+    else if (f>a&&f>b&&f>c&&f>d&&f>e&&f>g&&f>h&&f>i&&f>j)
+    {
+        printf("f is maix");
+    }
+    else if (g>a&&g>b&&g>c&&g>d&&g>e&&g>f&&g>h&&g>i&&g>j)
+    {
+        printf("g is maix");
+    }
+    else if(h>a&&h>b&&h>c&&h>d&&h>e&&h>f&&h>g&&h>i&&h>j)
+    {
+        printf("h is maix");
+    }
+
+    else if(i>a&&i>b&&i>c&&i>d&&i>e&&i>f&&i>g&&i>h&&i>j)
+    {
+        printf("i is maix");
+    }
+    else {
+        printf("j is maix");
+    }
+    return 0;
+}
+
+
+
+    }
+
+
+3)
+even or odd check
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the even and odd numder");
+    scanf("%d",&a);
+    if(a%2==0)
+    {
+        printf("this number is even number");
+    }
+    else
+    {
+        printf("this number if odd number");
+    }
+}
+
+
+4)
+vowel and conoanant
+
+
+#include<stdio.h>
+int main()
+{
+    char a;
+    printf("enter the character");
+    scanf("%c",&a);
+    if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u')
+    {
+        printf("this character is vowal");
+    }
+    else
+    {
+        printf("this character is consonant");
+    }
+}
+
+5)
+gender check
+
+#include<stdio.h>
+int main()
+{
+    char a;
+    printf("enter the frist latter of your gender");
+    scanf("%c",&a);
+    if(a=='m')
+    {
+        printf("you are male");
+    }
+    else if(a=='f')
+    {
+        printf("you are female");
+    }
+    else
+    {
+        printf("other");
+    }
+    }
+
+
+6)
+month
+
+#include<stdio.h>
+int main()
+{
+    int a ;
+    printf("enter the month number \n");
+    scanf("%d",&a);
+    if(a==1)
+    {
+        printf("january");
+    }
+    else if (a==2)
+    {
+        printf("february");
+    }
+    else if (a==3)
+    {
+        printf("march");
+    }
+    else if (a==4)
+    {
+        printf("april");
+    }
+    else if (a==5)
+    {
+        printf("may");
+    }
+    else if (a==6)
+    {
+        printf("jun");
+    }
+    else if (a==7)
+    {
+        printf("july");
+    }
+    else if (a==8)
+    {
+        printf("august");
+    }
+    else if (a==9)
+    {
+        printf("september");
+    }
+    else if (a==10)
+    {
+        printf("october");
+    }
+    else if (a==11)
+    {
+        printf("november");
+    }
+    else if (a==12)
+     {
+         printf("december");
+     }
+     else
+     {
+      printf("not match");
+      }
+     return 0;
+}
+
+
+7)
+week
+
+
+int a ;
+    printf("enter the day num");
+    scanf("%d",&a);
+    if(a==1)
+    {
+        printf("sunday");
+    }
+    else if (a==2)
+    {
+        printf("monday");
+    }
+    else if (a==3)
+    {
+        printf("tuesday");
+    }
+    else if (a==4)
+    {
+        printf("wednesday");
+    }
+    else if(a==5)
+    {
+        printf("thrusday");
+    }
+    else if(a==6)
+    {
+        printf("friday");
+    }
+    else if (a==7)
+    {
+        printf("saturday");
+    }
+    else {
+    printf("not match");
+    }
+    return 0;
+    }
+    }
+int a ;
+    printf("enter the day num");
+    scanf("%d",&a);
+    if(a==1)
+    {
+        printf("sunday");
+    }
+    else if (a==2)
+    {
+        printf("monday");
+    }
+    else if (a==3)
+    {
+        printf("tuesday");
+    }
+    else if (a==4)
+    {
+        printf("wednesday");
+    }
+    else if(a==5)
+    {
+        printf("thrusday");
+    }
+    else if(a==6)
+    {
+        printf("friday");
+    }
+    else if (a==7)
+    {
+        printf("saturday");
+    }
+    else {
+    printf("not match");
+    }
+    return 0;
+}
+
+8)
+while loop 
+	reverse 
+	pallindrome 
+	armstrong 
+	count
+	sum of digit
+
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("enter the number");
+    scanf("%d",&num);
+    int rem,sum;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+    }
+    printf("%d",sum);
+
+}
+
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("enter the number");
+    scanf("%d",&num);
+    int rem,sum;
+    int temp=num;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+    }
+    if(temp==sum)
+    {
+    printf("this number is pallindrom");
+    }
+    else
+    {
+        printf("this number is not pallindrom");
+    }
+}
+
+
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("enter the number");
+    scanf("%d",&num);
+    int rem,sum;
+
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum+rem*rem*rem;
+        num=num/10;
+    }
+
+    printf("%d",sum);
+}
+
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("enter the number");
+    scanf("%d",&num);
+    int count;
+    while(num>0)
+    {
+        count++;
+        num=num/10;
+
+    }
+    printf("%d",count);
+}
+
+
+#include<stdio.h>
+int main()
+{
+   int num=2;
+   int sum;
+   while(num<13)
+   {
+       sum=sum+num;
+       num++;
+   }
+
+   printf("%d",sum);
+}
+
+9)
+for loop
+	basic print
+	reverse 10-->1
+	factorial
+	fibonacci
+	even number sereis
+	odd number sereis
+
+	#include<stdio.h>
+int main()
+{
+
+   for(int a=1;a<=10;a++)
+   {
+       printf("%d",a);
+   }
+
+
+}#include<stdio.h>
+int main()
+{
+
+   for(int a=10;a>=1;a--)
+   {
+       printf("%d",a);
+   }
+
+
+}
+
+#include<stdio.h>
+int main()
+{
+
+   for(int a=10;a>=1;a--)
+   {
+       if(a%2==0)
+       {
+           printf("%d",a);
+       }
+
+   }
+
+
+}
+
+#include<stdio.h>
+int main()
+{
+    int n1=0,n2=1,n3;
+    int num;
+    printf("enter the fibonacci number");
+    scanf("%d",&num);
+    for (int i=0;i<=num;i++)
+    {
+        n3=n1+n2;
+        n1=n2;
+        n2=n3;
+        printf("%d",n3);
+    }
+}
+
+
+    #include<stdio.h>
+    int main()
+    {
+        int num;
+        printf("enter the number");
+        scanf("%d",&num);
+        if(num%2==0)
+        {
+            printf("even");
+        }
+        else
+        {
+            printf("odd");
+        }
+    }
+
+
+    #include<stdio.h>
+int main()
+{
+    int num;
+    scanf("%d",&num);
+    int last;
+    printf("enter hte last value of number");
+    scanf("%d",&last);
+
+    while(num<=last)
+    {
+        printf("  %d",num++);
+    }
+}
+
+
+
+10)
+functions :
+1)no return and no argmuent
+2)no return and  argmuent
+3) return and no argmuent
+4) return and  argmuent
+#include<stdio.h>
+//)no return and no argmuent
+
+void show();
+int main()
+{
+    show();
+}
+void show()
+{
+
+    int a=11;
+    int b=22;
+    int c=a+b;
+    printf("%d",c);
+}
+
+#include<stdio.h>
+void add(int a,int b);
+int main()
+{
+    int a,b;
+    printf("enter the value of a and b");
+    scanf("%d%d",&a,&b);
+    add(a,b);
+}
+void add(int a,int b)
+{
+    int c;
+    c=a+b;
+    printf("%d",c);
+}
+
+
+#include<stdio.h>
+int add();
+int main()
+{
+    printf("%d",add());
+}
+int add()
+{  int p;
+   scanf("%d",&p);
+   if(p==1){
+    int a,b;
+    scanf("%d%d",&a,&b);
+    int c=a+b;
+ return c;
+   }
+   else if(p==2)
+   {
+       printf("nothing");
+   }
+   else
+   {
+       printf("sorry");
+   }
+}
+
+#include<stdio.h>
+int add(int a,int b);
+int main()
+{
+    int a,b;
+    printf("enter the value");
+    scanf("%d%d",&a,&b);
+    printf("%d",add(a,b));
+}
+int add(int a,int b)
+{
+    int c;
+    c=a+b;
+    return c;
+}
